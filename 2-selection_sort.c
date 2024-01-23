@@ -24,7 +24,7 @@ void swap_ints(int *a, int *b)
  */
 void selection_sort(int *array, size_t size)
 {
-	int *min, temp;
+	int *min;
 	size_t i, j;
 
 	if (array == NULL || size < 2)
